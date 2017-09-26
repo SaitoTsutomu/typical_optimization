@@ -1,6 +1,6 @@
 FROM tsutomu7/scientific-python
 
-RUN pip install ortoolpy && \
+RUN pip install ortoolpy==0.2.1 && \
     rm -rf $HOME/.c*
 EXPOSE 8888
 VOLUME $HOME
