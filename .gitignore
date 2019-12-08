@@ -1,0 +1,7 @@
+jupyter notebook.bat
+.ipynb_checkpoints
+__pycache__
+Thumbs.db
+*.lnk
+.DS_Store
+
